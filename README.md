@@ -5,7 +5,7 @@
 
 This project is a book recommendation service that suggests books based on a user's inputted genre and book titles. It's built upon a database of 7000 books retrieved from Kaggle. Using Ada v2 as the large language model, vector embeddings were created with the Kaggle dataset to allow for quick vector search to find semantically similar books through natural language input. The frontend is built using Next.js and styled with TailwindCSS.
 
-![Project Screenshot](/BookRecs.gif)
+![Project Screenshot](/bookly.png)
 
 ## 📑 Table of Contents
 
@@ -86,9 +86,9 @@ The book data used for this project is sourced from the following Kaggle dataset
 
 ## 💰 Large Language Model (LLM) Costs with OpenAI
 
-BookRecs utilizes OpenAI or Ollama models. For OpenAI -- be advised that the usage costs for these models will be billed to the API access key you provide. Primarily, costs are incurred during data embedding and answer generation processes. The default vectorization engine for this project is `text-embedding-3-small`.
+This application utilizes OpenAI models. For OpenAI -- be advised that the usage costs for these models will be billed to the API access key you provide. Primarily, costs are incurred during data embedding and answer generation processes. The default vectorization engine for this project is `text-embedding-3-small`.
 
-## 💖 Open Source Contribution
+## 💖 Credit
 
-Your contributions are always welcome! Feel free to contribute ideas, feedback, or create issues and bug reports if you find any! Visit our [Weaviate Community Forum](https://forum.weaviate.io/) if you need any help!
+Inspiration for this project was gotten from Weaviate's [Bookrecs application](https://github.com/weaviate/BookRecs.git)
 
