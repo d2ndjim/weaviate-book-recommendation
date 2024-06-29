@@ -1,6 +1,5 @@
 import { Book } from "@/types";
 import Image from "next/image";
-import { Button } from "./ui/button";
 import { ViewBook } from "./view-book";
 
 type ListingCardProps = {
@@ -43,7 +42,6 @@ export const ListingCard = ({ data, isOpen, openModal, setOpen, selectedBook }: 
             top-3
           "
           >
-            {/* <Button className="bg-neutral-500/80">View</Button> */}
             <ViewBook isOpen={isOpen} setOpen={setOpen} title={data.title} openModal={openModal} selectedBook={selectedBook} />
           </div>
         </div>

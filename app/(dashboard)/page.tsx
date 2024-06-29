@@ -4,6 +4,7 @@
 import { BookRecommendation } from "@/components/prompt";
 
 export default async function Home() {
+  // If building locally in development mode, uncomment the following lines
   // await createCollection();
   // await processBooks();
   // await nearTextQuery()

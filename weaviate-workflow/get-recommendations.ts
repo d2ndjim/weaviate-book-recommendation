@@ -20,7 +20,7 @@ export async function similaritySearchNearText(query: [string] | []) {
   };
 
 
-  nearText.certainty = 0.7;
+  nearText.certainty = 0.6;
 
   nearText.concepts = query;
 
@@ -31,7 +31,7 @@ export async function similaritySearchNearText(query: [string] | []) {
       "title isbn10 isbn13 categories thumbnail description num_pages average_rating published_year authors",
     )
     .withNearText(nearText)
-    .withLimit(30);
+    .withLimit(20);
 
   const result = await response.do();
 

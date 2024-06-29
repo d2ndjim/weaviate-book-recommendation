@@ -1,4 +1,3 @@
-import { Loader2 } from "lucide-react";
 import { HeaderLogo } from "./header-logo";
 import { WelcomeMsg } from "./welcome-message";
 

@@ -79,8 +79,6 @@ export async function nearTextQuery() {
   for (let object of result.objects) {
     console.log(JSON.stringify(object.properties, null, 2));
   }
-
-  console.log(process.env.WCD_URL!!);
-
+  
   return result;
 }

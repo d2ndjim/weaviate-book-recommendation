@@ -33,7 +33,6 @@ export const BookRecommendation = () => {
     const bookSelection = recommendedBooks.filter((book: Book) => {
       return book.title === book_title;
     });
-    console.log(bookSelection);
     setSelectedbook(bookSelection[0]);
     setOpen(true);
   };
