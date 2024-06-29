@@ -1,4 +1,4 @@
-# Book Recommendation System (BookRecs)
+# Book Recommendation System (Bookly)
 [![Weaviate](https://img.shields.io/static/v1?label=powered%20by&message=Weaviate%20%E2%9D%A4&color=green&style=flat-square)](https://weaviate.io/) 
 [![Demo](https://img.shields.io/badge/Check%20out%20the%20demo!-yellow?&style=flat-square&logo=react&logoColor=white)](https://weaviate-book-recommendation.vercel.app/)
 
