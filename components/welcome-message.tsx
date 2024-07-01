@@ -8,7 +8,7 @@ export const WelcomeMsg = () => {
         Welcome to Bookly 👋
       </h2>
       <p className="lg:text-base text-[##4F5261] text-sm">
-        Get books recommended to you. Weaviate a combination of semantic search and
+        Get books recommended to you. Weaviate will use a combination of semantic search and
         keyword search, to find the books that best match your query. Semantic
         search allows you to search on the meaning of the text, which is great
         for book ideas.
